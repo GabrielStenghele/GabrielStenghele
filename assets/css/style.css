@@ -41,7 +41,7 @@ img.imagensgaleria{
 @media only screen and (max-width: 780px) {
   img.imagensgaleria{
     max-width: 100%;
-    max-height: 500px;
+    max-height: 400px;
   }
 }
 
