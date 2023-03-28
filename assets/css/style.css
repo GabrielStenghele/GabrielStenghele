@@ -68,10 +68,10 @@ img.logoWhats:hover{
   margin-left:-0px;
   margin-bottom: -15px;
 }
-
 div#row{
-  margin:auto;
+  margin: auto;
 }
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -916,6 +916,7 @@ section {
 .counts {
   background: #f5f5ff;
   padding: 70px 0 60px;
+  align-content: center;
 }
 
 .counts .count-box {
@@ -929,7 +930,6 @@ section {
 .counts .count-box i {
   position: absolute;
   top: -25px;
-  left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
   background: #1acc8d;
