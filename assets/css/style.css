@@ -43,6 +43,29 @@ img.imagensgaleria{
   }
 }
 
+a.logoWhats {
+  animation: MoveUpDown 3s linear infinite;
+  position: absolute;
+  left: calc(50%-60px);
+  bottom: calc(50%);
+}
+
+
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: calc(70%);
+  }
+  50% {
+    bottom: calc(75%);
+  }
+}
+
+img.logoWhats:hover{
+  width: 150px;
+  margin-left:-0px;
+  margin-bottom: -15px;
+}
 
 /*--------------------------------------------------------------
 # Preloader
