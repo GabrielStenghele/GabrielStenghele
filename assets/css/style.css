@@ -34,12 +34,14 @@ h6 {
 }
 
 img.imagensgaleria{
-  width: 800px;  
+  max-width: 800px;
+  max-height: 500px; 
 }
 
 @media only screen and (max-width: 780px) {
   img.imagensgaleria{
-    width: 100%;
+    max-width: 100%;
+    max-height: 400px;
   }
 }
 
