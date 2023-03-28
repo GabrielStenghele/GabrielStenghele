@@ -33,6 +33,17 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
+img.imagensgaleria{
+  width: 800px;  
+}
+
+@media only screen and (max-width: 780px) {
+  img.imagensgaleria{
+    width: 100%;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
