@@ -46,24 +46,24 @@ img.imagensgaleria{
 a.logoWhats {
   animation: MoveUpDown 3s linear infinite;
   position: absolute;
-  left: 50%;
-  bottom: 50%;
+  left: calc(50%-60px);
+  bottom: calc(50%-60px);
 }
 
 
 
 @keyframes MoveUpDown {
   0%, 100% {
-    bottom: 50%;
+    bottom: calc(50%);
   }
   50% {
-    bottom: 52%;
+    bottom: calc(55%);
   }
 }
 
 img.logoWhats:hover{
-  width:150px;
-  margin-left:-15px;
+  width: 150px;
+  margin-left:-0px;
   margin-bottom: -15px;
 }
 
