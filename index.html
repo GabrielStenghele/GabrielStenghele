@@ -14,6 +14,24 @@
   gtag('config', 'G-MT942EWKXG');
 </script>
 
+  <!-- Event snippet for Cotação Energia Solar conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-11132503742/IcTWCJKE4pQYEL6Nsrwp',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+
+
    <!-- TAGS META INICIO -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -93,7 +111,7 @@
             <h1>Transforme a luz do sol em economia com <span>energia solar</span></h1>
             <h2>Faça já seu orçamento conosco e continue na página para conhecer um pouco mais.</h2>
             <div class="text-center text-lg-start">
-              <a target="_blank" href="https://wa.me/5547992246054?text=Ol%C3%A1+Gabriel%2C+eu+gostaria+de+fazer+um+or%C3%A7amento+para+Energia+Solar%21" class="btn-get-started scrollto">Fale comigo!</a>
+              <a target="_blank" href="https://wa.me/5547992246054?text=Ol%C3%A1+Gabriel%2C+eu+gostaria+de+fazer+um+or%C3%A7amento+para+Energia+Solar%21" class="btn-get-started scrollto" onclick="gtag_report_conversion()">Fale comigo!</a>
             </div>
           </div>
         </div>
