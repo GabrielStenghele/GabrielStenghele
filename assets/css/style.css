@@ -47,17 +47,17 @@ a.logoWhats {
   animation: MoveUpDown 3s linear infinite;
   position: absolute;
   left: calc(50%-60px);
-  bottom: calc(50%-60px);
+  bottom: calc(50%);
 }
 
 
 
 @keyframes MoveUpDown {
   0%, 100% {
-    bottom: calc(50%);
+    bottom: calc(70%);
   }
   50% {
-    bottom: calc(55%);
+    bottom: calc(75%);
   }
 }
 
