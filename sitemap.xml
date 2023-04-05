@@ -9,13 +9,18 @@
 
 <url>
   <loc>https://gabrielstenghele.github.io/</loc>
-  <lastmod>2023-03-28T17:27:41+00:00</lastmod>
+  <lastmod>2023-04-04T18:53:36+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://gabrielstenghele.github.io/index.html</loc>
-  <lastmod>2023-03-28T17:27:41+00:00</lastmod>
+  <lastmod>2023-04-04T18:53:36+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gabrielstenghele.github.io/simulate.html</loc>
+  <lastmod>2023-04-04T18:53:36+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 
 
